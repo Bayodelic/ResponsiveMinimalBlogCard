@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    color-scheme: dark;
+}
+
+
+#card{
+    margin: 0 auto;
+    padding: 0px;
+    margin-top: 30px;
+    width: 40%;
+    height: 600px;
+    box-shadow: -1px 5px 56px 8px rgba(230,23,230,1);
+    border: solid 2px black;
+}
+
+
+img{
+    width: 98%;
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+button{
+    background-color: #fbd6fc;
+    color: #934DE4;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+
+button:hover{
+    background-color: #934DE4;
+    color: white;
+    cursor: pointer;
+}
+
+#information{
+    width: 99%;
+    height: 180px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+}
+
+#information h1{
+    width: 100%;
+    font-size: 40px;
+}
+
+#information p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 978px) {
+
+    #information h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    #information p{
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    #information{
+        width: 99%;
+        height: 140px;
+        margin-left: 5px;
+        margin-top: 40px;
+        border-bottom: 1px solid white;
+    }
+
+    #card{
+        margin: 0 auto;
+        padding: 0px;
+        margin-top: 30px;
+        width: 40%;
+        height: 500px;
+        box-shadow: -1px 5px 56px 8px rgba(230,23,230,1);
+        border: solid 2px black;
+    }
+    
+    
+}
+
+@media (max-width: 824px){
+    button{
+        background-color: #fbd6fc;
+        color: #934DE4;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 30%;
+    }
+
+    #information h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    #information p{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    #information{
+        width: 98%;
+        height: 120px;
+        margin-left: 5px;
+        margin-top: 30px;
+        border-bottom: 1px solid white;
+    }
+
+    #card{
+        margin: 0 auto;
+        padding: 0px;
+        margin-top: 30px;
+        width: 40%;
+        height: 430px;
+        box-shadow: -1px 5px 56px 8px rgba(230,23,230,1);
+        border: solid 2px black;
+    }
+    
+    
+
+}
